@@ -1,0 +1,4 @@
+#!/bin/bash
+PYFILE = main_py
+OUTPUT = "${PYFILE}c"
+python3 "${PYFILE}" > "${OUTPUT}"
