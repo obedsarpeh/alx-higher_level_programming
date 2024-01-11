@@ -10,7 +10,7 @@ Return:
 
 def safe_print_list_integers(my_list=[], x=0):
 
-    count = 0
+    count =0
 
     try:
         for idx in range(x):
