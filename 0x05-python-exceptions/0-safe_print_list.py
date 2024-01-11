@@ -1,4 +1,4 @@
-#!usr/bin/python3
+#!/usr/bin/python3
 '''
 Args:
     my_list: list of type int, string, etc.
