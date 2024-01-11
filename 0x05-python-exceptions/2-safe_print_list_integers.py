@@ -15,7 +15,6 @@ def safe_print_list_integers(my_list=[], x=0):
     try:
         for idx in range(x):
             try:
-#                integer_value = int(my_list[idx])
                 print("{:d}".format(my_list[idx]), end="")
                 count += 1
             except (TypeError, ValueError):
