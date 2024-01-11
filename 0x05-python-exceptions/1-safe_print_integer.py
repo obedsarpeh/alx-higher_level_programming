@@ -1,0 +1,17 @@
+#!/usr/bin/python
+'''
+Arg:
+    value - integer to be printed
+Return:
+    returns - the value to be printed
+'''
+
+
+def safe_print_integer(value):
+
+    try:
+        print("{:d}".format(value))
+    except ValueError:
+        return False
+
+    return (value)
