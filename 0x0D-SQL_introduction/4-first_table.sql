@@ -1,4 +1,4 @@
--- creating my first table if it doess not exist
+-- creating my first table if it does not exist
 CREATE TABLE IF NOT EXISTS first_table (
-	id INT,
+	id INT(11),
 	name VARCHAR(256));
