@@ -7,6 +7,6 @@ SELECT id, name, (
 	SELECT name
 	FROM states
 	WHERE states.id = cities.state_id
-)
+) AS name
 FROM cities
 ORDER BY cities.id ASC;
