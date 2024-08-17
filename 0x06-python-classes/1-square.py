@@ -12,10 +12,9 @@ class Square:
     An class with a private instance attribute 'size'
     """
 
-    def __init__ (self, value):
+    def __init__(self, value):
         """
         Initializes a private attribute
         """
 
         self.__value = value
-
