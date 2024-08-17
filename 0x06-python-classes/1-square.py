@@ -13,5 +13,9 @@ class Square:
     """
 
     def __init__ (self, value):
+        """
+        Initializes a private attribute
+        """
+
         self.__value = value
 
